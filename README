@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1959
+
+Mappings:
+ <lead>so  --  sort, case sensitive
+ <lead>si  --  sort, case insensitive
+
+These mappings work in visual and normal mode--in normal mode they take a motion operator.  See ":help mapleader"
+
+Function:
+ CharSort#Sort({string} [, {i/c}]) -- Sort {string}
+    {i/c} == c  -- match case (default)
+    {i/c} == i  -- ignore case
